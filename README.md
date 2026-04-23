@@ -1,11 +1,47 @@
-<div align="center">
+# AWS CCP Practice Exam App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An interactive, serverless quiz application built with React, Tailwind CSS, and Framer Motion. 
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Quick Start (Local)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. **Run carefully in development mode**:
+   ```bash
+   npm run dev
+   ```
+   *Access at: http://localhost:3000*
 
-</div>
+## 📦 Building for Production
+
+To create the optimized files for AWS hosting:
+```bash
+npm run build
+```
+This produces the `dist/` directory.
+
+## ☁️ AWS Deployment
+
+For a professional, cost-effective deployment using **S3 + CloudFront**, please see [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md).
+
+## 📄 Question Format
+
+You can upload custom quiz files in Markdown. The app parses blocks in this format:
+
+```markdown
+1. Your question here?
+- A. Option A
+- B. Option B
+- C. Option C
+- D. Option D
+Correct answer: A
+```
+
+## 🛠 Features
+- **Markdown Parsing**: Supports standard `.md` and `README.md` formats.
+- **Dynamic Upload**: Import your own study materials on the fly.
+- **AWS Theme**: Professionally styled with AWS brand colors.
+- **Responsive**: Works on desktop and mobile.

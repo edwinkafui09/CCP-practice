@@ -1,0 +1,6 @@
+{
+  "name": "AWS Cloud Practitioner Practice Exam",
+  "description": "An interactive practice exam platform for the AWS Certified Cloud Practitioner (CCP) certification, featuring markdown-based question parsing and real-time feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
